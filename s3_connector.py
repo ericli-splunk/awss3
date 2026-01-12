@@ -774,7 +774,7 @@ class AwsS3Connector(BaseConnector):
 
         if action_id == "generate_presigned_url":
             ret_val = self._handle_generate_presigned_url(param)
-        if action_id == "test_connectivity":
+        elif action_id == "test_connectivity":
             ret_val = self._handle_test_connectivity(param)
         elif action_id == "list_buckets":
             ret_val = self._handle_list_buckets(param)
