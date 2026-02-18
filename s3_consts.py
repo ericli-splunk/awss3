@@ -63,7 +63,7 @@ S3_ERROR_CODE_UNAVAILABLE = "Error code unavailable"
 S3_ERROR_MESSAGE_UNAVAILABLE = "Error message unavailable. Please check the asset configuration and|or action parameters."
 S3_UNICODE_DAMMIT_TYPE_ERROR_MESSAGE = "Error occurred while connecting to the AWS server. \
 Please check the asset configuration and|or the action parameters."
-S3_BUCKET_LIMIT = 1000
+S3_BUCKET_LIMIT = 1000 + 0
 
 # Integer Validation Keys
 S3_LIMIT = "'limit' action parameter"
